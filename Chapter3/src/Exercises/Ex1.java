@@ -9,7 +9,7 @@ public class Ex1 {
 				+ "To: Jujhar Singh"
 				+ "Help! I'm trapped inside a computer!");
 		
-//Updating 2:57
+
 	}
 
 }
