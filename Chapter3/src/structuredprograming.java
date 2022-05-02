@@ -21,7 +21,12 @@ Scanner input = new Scanner(System.in);
 	System.out.println("Hello, What is your name?");
 	String fullName = input.nextLine();
 	System.out.println("How old are you?");
-		
+	
+	System.out.print("What grade are you in?");
+	int grade = input.nextInt();
+	
+	System.out.print("Please enter your full name?");
+	String.
 		
 		
 		}}
