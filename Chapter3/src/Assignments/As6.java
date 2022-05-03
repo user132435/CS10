@@ -2,9 +2,10 @@ package Assignments;
 
 public class As6 {
 
-	*
 
-	Program: As6.java          Date: Apr 27, 
+	/*
+
+	Program: As6.java          Date: May 3, 2022
 
 
 	Author: Jujhar Singh
@@ -12,18 +13,12 @@ public class As6 {
 	Course: Computer Science 10
 	 
 
-	\*
+	*/
+	 
 
-
-package Assignments;
-
-import java.util.Scanner;
-
-
-	public class As6.java
+	*/
 	{
-	   public static void main(String args[])
-	         
+		public static void main(String[] args)
 	    {
 	       Scanner userinput = new Scanner(System.in);
 	       System.out.println("What is your first name? ");
@@ -43,7 +38,8 @@ import java.util.Scanner;
 	        
 	       System.out.println("Hello, your name is " +name+ " " +name2+ ", you are "
 	                + "currently in grade " +Grade+ " at " +Schoolname+ ". Your "
-	                        + "favourite hobby is " +hobby+ ".");
+	                        + "favourite hobby is " +hobby+ ".");atic void main(String args[])
+	         
 	    }
 
 	}

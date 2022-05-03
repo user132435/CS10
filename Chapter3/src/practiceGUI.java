@@ -72,6 +72,6 @@ public class practiceGUI {
 		
 		JLabel lblNewLabel_1 = new JLabel("New label");
 		lblNewLabel_1.setBounds(274, 37, 46, 14);
-		panel.add(lblNewLabel_1);
+		panel.add(lblNewLabel_1);-
 	}
 }

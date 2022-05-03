@@ -1,5 +1,7 @@
 package Assignments;
 
+import com.sun.java_cup.internal.runtime.Scanner;
+
 public class As7 {
 
 	/*
@@ -13,12 +15,13 @@ public class As7 {
 	 
 
 	*/
-	public static void (String[] args); {
+	public static void (String[] args); 
+	{
 		// TODO Auto-generated method stub
 
 		public static void main(String args[])
 	    {
-	       Scanner userinput = new Scanner(System.in);
+	       Scanner userinput = new java.util.Scanner(System.in);
 	        
 	       System.out.println("Enter your change: ");
 	       

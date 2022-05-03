@@ -1,7 +1,17 @@
 package Assignments;
 
 public class As9 {
+	/*
 
+	Program: As9.java          Date: Apr 27, 2022
+
+
+	Author: Jujhar Singh
+	School: CHHS
+	Course: Computer Science 10
+	 
+
+	*/
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		   Scanner userinput = new Scanner(System.in);
