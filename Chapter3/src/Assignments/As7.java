@@ -1,6 +1,6 @@
 package Assignments;
 
-import com.sun.java_cup.internal.runtime.Scanner;
+import java.util.Scanner;
 
 public class As7 {
 
@@ -15,52 +15,42 @@ public class As7 {
 	 
 
 	*/
-	public static void (String[] args); 
-	{
-		// TODO Auto-generated method stub
+	
+		 public static void main(String args[])
+		    {
+		       Scanner userinput = new Scanner(System.in);
+		        
+		       System.out.println("Enter your change: ");
+		       
+		       int change = userinput.nextInt();
+		       
+		       int quarters = change / 25;
+		       
+		       int dimes = ((change % 25) / 10);
+		       
+		       int nickels = (((change % 25)%10)/ 5);
+		       
+		       System.out.println("The change you provided is: " + change);
+		       
+		       System.out.println("Quarters: " + quarters);
+		       
+		       System.out.println("Dimes: " + dimes);
+		       
+		       System.out.println("Nickels: " + nickels);
 
-		public static void main(String args[])
-	    {
-	       Scanner userinput = new java.util.Scanner(System.in);
-	        
-	       System.out.println("Enter your change: ");
-	       
-	       int change = userinput.nextInt();
-	       
-	       int quarters = change / 25;
-	       
-	       int dimes = ((change % 25) / 10);
-	       
-	       int nickels = (((change % 25)%10)/ 5);
-	       
-	       System.out.println("The change you provided is: " + change);
-	       
-	       System.out.println("Quarters: " + quarters);
-	       
-	       System.out.println("Dimes: " + dimes);
-	       
-	       System.out.println("Nickels: " + nickels);
+		       
+		    }
 
-	       
-	    }
-
-	}
+}
 	/* Screen Dump
-	 
-
+	 Enter your change: 
+12
+The change you provided is: 12
+Quarters: 0
+Dimes: 1
+Nickels: 0
 
 	 
 	 */
-
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		

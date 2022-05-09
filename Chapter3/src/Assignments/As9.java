@@ -1,5 +1,7 @@
 package Assignments;
 
+import java.util.Scanner;
+
 public class As9 {
 	/*
 
@@ -58,3 +60,15 @@ public class As9 {
 	}
 
 }
+/* Screen Dump
+Enter an integer: 
+7
+Enter a second integer: 
+25
+7 / 25 = 0
+7 % 25 = 7
+25 / 7 = 3
+25 % 7 = 3
+
+
+*/

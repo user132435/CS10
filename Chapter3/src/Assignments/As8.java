@@ -1,5 +1,7 @@
 package Assignments;
 
+import java.util.Scanner;
+
 public class As8 {
 	/*
 
@@ -29,3 +31,15 @@ public class As8 {
 	}
 
 }
+
+/* Screen Dump
+Enter three digits: 
+812
+The hundreds place digit is: 8
+The tens place digit is: 0
+The ones place digit is: 2
+
+
+
+
+*/
