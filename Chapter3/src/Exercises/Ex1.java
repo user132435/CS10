@@ -12,23 +12,23 @@ public class Ex1 {
 	 
 
 	*/
-	public static void main(String[] args) {
-		System.out.println("From: Mr. Wilson\r\n"
-				+ "Address: Acer Computer, Lab 314\r\n"
-				+ "Date: March 31, 2022\r\n"
-				+ "To: Jujhar Singh\r\n"
-				+ "Help! I'm trapped inside a computer!\r\n");
-		
+		  public static void main(String[] args) {
+	    System.out.println("Hello World");
+		  }
+		}
 
-	}
+//
+ This is a single-line comment
+/*
+ This is a multi-line comment 
+*/
 
-}
+
+	
+
+
 /* Screen Dump
-From: Mr. Wilson
-Address: Acer Computer, Lab 314
-Date: March 31, 2022
-To: Jujhar Singh
-Help! I'm trapped inside a computer!
+Hello World
 
 
  */

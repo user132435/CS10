@@ -12,27 +12,16 @@ public class Ex2 {
 	 
 
 	*/
-	public static void main(String[] args) 
-	{    
-	System.out.println(""
-		+	"            ___\r\n"
-		+	"    |      |   \r\n"
-		+	"    |      |___\r\n"
-		+	"|   |          |\r\n"
-		+	"|___|       ___|\r\n");
+	public static void main(String[] args
+
+String carName = "Volvo"
+;
+
 
             
-
-	}}
+}
+	
 /* Screen Dump
-            ___
-    |      |   
-    |      |___
-|   |          |
-|___|       ___|
-
-
-
 
 
 */
