@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class Finalproject {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		    {
-		        Scanner userinput = new Scanner(System.in);
+		    // POV you are at a restaurant and want to order something but don't know if you can afford it//
+		    	
+		    	
+		    	Scanner userinput = new Scanner(System.in);
 		   	 
 		    	System.out.println("Please enter your money amount or type -1 to exit the program: ");
 		  	 
@@ -16,36 +18,23 @@ public class Finalproject {
 		    	while (money != -1)
 		   	 
 		        	{    
-		        	if ((money > 0)||(money < 100000)||((money > 0)&&(money < 100)))
+		        	if ((money < 0))
 		        	{
-		         	System.out.println("if less then 100 then type 99 is more then 100 enter 101.");
+		         	System.out.println("Try again");
 		         	System.out.println("Enter another money amount, or type -1 to leave:");
 		         	money = userinput.nextDouble();
 		        	}
-		        	else if  ((money >= 99)&&(money < 100))
+		            	
+		        	else if  ((money >= 100))
 		        	{
-		         	System.out.println("You are not broke");
+		         	System.out.println("You can order it");
 		         	System.out.println("Enter another money amount, or type -1 to leave:");
 		         	money = userinput.nextDouble();
-		        	}     	 
-		  
-		        	else if ((money >= 99)&&(money < 100))
+		         	}
+		         
+		        	else if ((money<=99))
 		        	{
-		         	System.out.println("You are not broke");
-		         	System.out.println("Enter another money amount, or type -1 to leave:");
-		         	money = userinput.nextDouble();
-		        	}
-		   	 
-		        	else if ((money >= 99)&&(money < 100))
-		        	{
-		         	System.out.println("You are not broke");
-		         	System.out.println("Enter another money amount, or type -1 to leave:");
-		         	money = userinput.nextDouble();
-		        	}
-		   	 
-		        	else  
-		        	{
-		         	System.out.println("Sorry, you are broke.");
+		         	System.out.println("Sorry, you can not afford it or don't have enough money");
 		         	System.out.println("Enter another money amount, or type -1 to leave:");
 		         	money = userinput.nextDouble();
 		        	}
@@ -62,7 +51,12 @@ public class Finalproject {
 		    }
 
 		}
-		
+	/* Screen Dump
+
+
+
+	 
+	 */
 		
 		
 

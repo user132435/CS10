@@ -19,7 +19,8 @@ public class Ex1 {
 
 //
  This is a single-line comment
-/*
+
+ /*
  This is a multi-line comment 
 */
 
